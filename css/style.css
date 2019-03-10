@@ -396,7 +396,7 @@ fieldset {
 	color: #bebebe;
 }
 
-.in-touch-form fieldset input::-moz-placeholder {
+.in-touch-form fieldset input:placeholder {
 	padding-left: 15px;
 	font-size: 12px;
 	font-family: "Lato", sans-serif;
