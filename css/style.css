@@ -455,6 +455,11 @@ fieldset {
 	word-spacing: 1px;
 }
 
+.text-info span {
+	font-weight: 900;
+	color: #e0e0e0;
+}
+
 .box-contact {
 	width: 145px;
 	display: flex;
