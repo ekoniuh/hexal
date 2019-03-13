@@ -38,6 +38,7 @@ a {
 .header {
 	height: 63px;
 	background-color: #323232;
+	position: relative;
 }
 
 .header:after {
@@ -48,7 +49,7 @@ a {
 	background-color: #e4e9eb;
 	position: absolute;
 	top: 63px;
-    left: 111px;
+    left: 30px;
 }
 
 .header:before {
@@ -59,7 +60,7 @@ a {
 	background-color: #e4e9eb;
 	position: absolute;
 	top: 63px;
-    right: 111px;
+    right: 30px;
 }
 
 .header h1 {
@@ -214,7 +215,7 @@ nav::after {
     margin-top: 46px;
 }
 
-.slider-list a {
+.slider-list li {
 	display: block;
 	width: 6px;
 	height: 6px;
@@ -223,11 +224,11 @@ nav::after {
 }
 
 
-.slider-list a:first-child {
+.slider-list li:first-child {
 	margin-left:0px;
 }
 
-.slider-list a:nth-child(3) {
+.slider-list li:nth-child(3) {
 	background-color: #8b8784;
 }
 
