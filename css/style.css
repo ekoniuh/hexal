@@ -8,6 +8,13 @@
 body {
 	color: #ffffff;
 	font-size: 15px;
+	max-width: 1020px;
+	width: 1020px;
+	margin: 0 auto;
+}
+
+.wrapper {
+	width:100%;
 }
 
 p {
@@ -33,6 +40,28 @@ a {
 	background-color: #323232;
 }
 
+.header:after {
+	content: "";
+	width: 410px;
+    height: 1px;
+    margin-top: 11px;
+	background-color: #e4e9eb;
+	position: absolute;
+	top: 63px;
+    left: 111px;
+}
+
+.header:before {
+	content: "";
+	width: 410px;
+    height: 1px;
+    margin-top: 11px;
+	background-color: #e4e9eb;
+	position: absolute;
+	top: 63px;
+    right: 111px;
+}
+
 .header h1 {
 	display: none;
 }
@@ -46,7 +75,6 @@ a {
 	width: 376px;
 	height: 55px;
 	display: flex;
-
 	align-items: center;
 	text-transform: uppercase;
 	padding-top: 12px;
@@ -88,20 +116,6 @@ a {
 }
 
 
-.left-line,
-.right-line {
-	float: left;
-	width: 410px;
-	height: 1px;
-	margin-top: 11px;
-	background-color: #e4e9eb;
-}
-
-.left-line {
-	margin-left: 30px;
-	margin-right: 140px;
-}
-
 nav::after {
 	content: "";
 	width: 0;
@@ -111,11 +125,6 @@ nav::after {
 	border-top: 26px solid #323232;
 	position: absolute;
 	top: 63px;
-}
-
-.wrapper {
-	max-width: 1020px;
-	margin: 0 auto;
 }
 
 .container-hexagon {
